@@ -42,7 +42,10 @@ Back-end:
   git clone git@github.com:El1v/app-delivery.git
   ```
 
-                                                  
+   ```bash
+  npm install
+  ```
+                                                
   ```bash
   docker compose up -d
   ```
