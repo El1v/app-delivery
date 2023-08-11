@@ -1,17 +1,186 @@
-# Delivery App
+# Dona Birita 🍺
 
-## Contexto
+## Contexto do Projeto 💡
+Plataforma de entrega de bebidas para a distribuidora fictícia Dona Birita.
 
-A distribuidora de cervejas da dona Tereza está se informatizando! rocket Seu negócio, antes focado em um local específico da cidade, passou a receber uma quantidade massiva de encomendas de outros pontos, expandindo sua atuação via delivery. Isso tudo graças ao excelente preço das bebidas e atendimento da equipe de vendas.
+### Colegas que contribuiram para a execução do projeto 👥
+- [@Victor Figueiredo Mendes](https://github.com/ImVictorM "github")
+- [@Rafael Silva](https://github.com/RafaMI6 "github")
+- [@Carolina Lima](https://github.com/cybersekh "github")
+- [@Wlisses Fernando](https://github.com/wlis13 "github")
 
-Agora a distribuidora possui alguns pontos de venda na cidade para agilizar no atendimento dessas áreas. Cada ponto de venda, por sua vez, possui uma pessoa vendedora responsável.
+### Principais funcionalidades do aplicativo 🔧
+#### Cliente:
+- Realizar login;
+- Realizar cadastro;
+- Escolher itens para adicionar ao pedido;
+- Fazer o pedido;
+- Monitorizar o estado dos pedidos efetuados;
+- Alterar status do pedido para "Entregue";
+#### Vendedor:
+- Realizar login;
+- Rastrear pedidos;
+- Alterar o status dos pedidos para "Preparando Pedidos" e "Saiu para entrega";
+#### Administrador:
+- Realizar login;
+- Visualizar usuários;
+- Cadastrar novos usuários;
+- Excluir usuários;
 
-Como seu antigo sistema, que era um conjunto de planilhas, já não atende a necessidade do negócio por gerar muita manutenção, dona Tereza procurou a sua equipe de pessoas desenvolvedoras com uma ideia de aplicativo que pudesse agilizar a vida de sua equipe e das pessoas que compram seus produtos. O aplicativo precisa:
+### Conhecimento Adquirido 📖
 
-- Ter acesso via login: tanto clientes como pessoas vendedoras, assim como a própria dona Tereza, que administra o sistema, devem ter acesso ao aplicativo via login, porém para funções diferentes: (1) A pessoa cliente, que compra da lista de produtos; (2) A pessoa vendedora, que aprova, prepara e entrega; (3) A pessoa administradora, que gerencia quem usa o aplicativo;
-- Fazer a comunicação entre clientes e pessoas vendedoras: a pessoa cliente faz o pedido via "carrinho de compras" e a pessoa vendedora aprova, prepara e envia esse pedido. Quando o produto é recebido por quem comprou, essa pessoa marca o pedido como "recebido". Ambos devem possuir detalhes sobre seus pedidos;
-- Se a pessoa cliente faz o pedido, o mesmo deve aparecer para a pessoa vendedora em seu dash de pedidos após a atualização da página. A pessoa cliente, por sua vez, deve ter as informações sobre seu pedido quando sua página for atualizada, ou seja, ter informações se o pedido está sendo preparado ou se já saiu pra entrega;
+Neste projeto, fomos capazes de:
+- Desenvolver uma aplicação FullStack;
+- Integrar front-end e back-end;
+- Construir uma API REST;
+- Organizar o código e a arquitetura geral da aplicação;
+- Trabalhar em conjunto, utilizando reuniões diárias e Kanban;
 
+## Main Technologies 🧰
+<table>
+    <caption align="center"><h3>Back-End</h3></caption>
+    <thead>
+        <tr>
+            <th>JavaScript</th>
+            <th>Express</th>
+            <th>Sequelize</th>
+            <th>Node.JS</th>
+            <th>MySQL</th>
+            <th>JWT</th>
+            <th>Docker</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center">
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> 
+                    <img 
+                         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" 
+                         alt="javascript" 
+                         width="40" 
+                         height="40"
+                    /> 
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://expressjs.com/" target="_blank">
+                    <img
+                        src="https://www.orafox.com/wp-content/uploads/2019/01/expressjs.png"
+                        alt="express"
+                        width="40"
+                        height="40"
+                    />
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://sequelize.org/" target="_blank">
+                    <img
+                        src="https://sequelize.org/api/v6/image/brand_logo.png"
+                        alt="sequelize"
+                        width="40"
+                        height="40"
+                    />
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://nodejs.org" target="_blank" rel="noreferrer"> 
+                    <img 
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" 
+                        alt="nodejs" 
+                        width="40" 
+                        height="40"
+                    /> 
+                </a>
+            </td>
+            <td align="center">
+                 <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> 
+                     <img 
+                         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" 
+                         alt="mysql" 
+                         width="40" 
+                         height="40"
+                    /> 
+                </a>
+            </td>
+            <td align="center">
+                 <a href="https://www.npmjs.com/package/jsonwebtoken" target="_blank" rel="noreferrer"> 
+                     <img 
+                         src="https://jwt.io/img/pic_logo.svg" 
+                         alt="jwt" 
+                         width="40" 
+                         height="40"
+                    /> 
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> 
+                    <img 
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" 
+                        alt="docker" 
+                        width="40" 
+                        height="40"
+                    /> 
+                </a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<table>
+    <caption align="center"><h3>Front-End</h3></caption>
+    <thead>
+        <tr>
+            <th>JavaScript</th>
+            <th>HTML5</th>
+            <th>CSS3</th>
+            <th>React</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center">
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> 
+                    <img 
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" 
+                        alt="javascript" 
+                        width="40" 
+                        height="40"
+                    /> 
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> 
+                    <img 
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" 
+                        alt="html5" 
+                        width="40" 
+                        height="40"
+                    /> 
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> 
+                    <img 
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" 
+                        alt="css3" 
+                        width="40" 
+                        height="40"
+                    /> 
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> 
+                    <img 
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" 
+                        alt="react" 
+                        width="40" 
+                        height="40"
+                    /> 
+                </a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<table>
 
 <!-- 
 > Utiliza a API []()
@@ -19,45 +188,62 @@ Como seu antigo sistema, que era um conjunto de planilhas, já não atende a nec
 
 ---
 
-Colegas que contribuíram para a realização do projeto:
 
-- [@Victor Figueiredo Mendes](https://github.com/ImVictorM "github")
-- [@Rafael Silva](https://github.com/RafaMI6 "github")
-- [@Carolina Lima](https://github.com/cybersekh "github")
-- [@Wlisses Fernando](https://github.com/wlis13 "github")
 
-## Técnologias usadas
+## Rodando a aplicação ⚙️
 
-Front-end:
-> Desenvolvido usando: React, CSS3, HTML5, Javascript, JWT
+- Porta padrão da API: `3001`
+- Porta padrão do banco de dados: `3002`
 
-Back-end:
-> Desenvolvido usando: Node.js, Express.js, Javascript, ES6, MYSQL, Sequelize ORM,Docker, JWT, Mochajs, Chaijs, SinonJs.
+1. Clone o repositório
 
-## Instalando Dependências
+```bash
+git clone git@github.com:El1v/app-delivery.git
+```
 
-- clone o projeto:
-
-  ```bash
-  git clone git@github.com:El1v/app-delivery.git
-  ```
-
-   ```bash
+2. Instale as dependências 
+```bash
   npm install
-  ```
-                                                
-  ```bash
-  docker compose up -d
-  ```
+```
 
-  ```bash
-  npm run db:reset
-  ```
+<details>
+<summary><h4>🐋 Rodando com docker (recomendado)</h4></summary>
+  
+2. Inicie os containers
 
-## Executando aplicação
+```bash
+docker-compose up -d
+```
 
-- Para rodar o back-end && front-end:
+3. Popule o banco de dados
+```bash
+npm run db:reset
+```
 
-  ```bash
+4. Iniciar o back-end && front-end (utilizar o comando na raiz do projeto)
+```bash
   npm start
-  ```
+```
+
+5. Acesse a pagina no seu navegador: http://localhost:3000/
+
+</details>
+
+<details>
+<summary><h4>🖥️ Rodando Localmente</h4></summary>
+
+ > Você precisa ter node e MySQL instalado
+ 
+3. Renomeie o arquivo `.env.example` para `.env` no diretório front-end e back-end (altere o arquivo como preferir)
+
+4. Popule o banco de dados
+```bash
+npm run db:reset
+```
+
+5. Iniciar o back-end && front-end (utilizar o comando na raiz do projeto)
+```bash
+  npm start
+```
+
+
